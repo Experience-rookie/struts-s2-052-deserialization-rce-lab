@@ -1,0 +1,5 @@
+<command>
+<string>/bin/sh</string>
+<string>-c</string>
+<string>whoami</string>
+</command>
