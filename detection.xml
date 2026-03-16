@@ -1,0 +1,4 @@
+<command>
+<string>touch</string>
+<string>/tmp/pwned</string>
+</command>
