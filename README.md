@@ -24,17 +24,17 @@ This results in **Remote Command Execution (RCE)**.
 
 ## Vulnerable Flow
 
-User Request  
-↓  
-Struts REST Plugin  
-↓  
-XStream XML Deserialization  
-↓  
-Malicious Gadget Chain  
-↓  
-ProcessBuilder.start()  
-↓  
-Remote Command Execution  
+Client Request
+     ↓
+Struts REST Plugin
+     ↓
+XStream XML Deserialization
+     ↓
+Malicious Object Graph
+     ↓
+ProcessBuilder.start()
+     ↓
+Remote Code Execution
 
 ---
 
@@ -44,4 +44,12 @@ Platform: INE eWPTX Practice Range
 Challenge: Struts XML Deserialization RCE  
 
 ---
+## Affected Versions
 
+Struts 2.1.6 – 2.3.33
+Struts 2.5 – 2.5.12
+
+## Affected Versions
+
+Struts 2.1.6 – 2.3.33
+Struts 2.5 – 2.5.12
