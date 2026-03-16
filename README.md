@@ -48,8 +48,3 @@ Challenge: Struts XML Deserialization RCE
 
 Struts 2.1.6 – 2.3.33
 Struts 2.5 – 2.5.12
-
-## Affected Versions
-
-Struts 2.1.6 – 2.3.33
-Struts 2.5 – 2.5.12
